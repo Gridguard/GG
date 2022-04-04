@@ -1,0 +1,48 @@
+{
+  "packages":
+  [
+    {
+      "name": "GridGuard_nrf52",
+      "maintainer": "Varda AS",
+      "websiteURL": "https://gridguard.no",
+      "email" : "crishan@varda.as",
+      "platforms":
+      [
+        {
+          "name": "GridGuard nRF52",
+          "architecture": "nrf52",
+          "version": "1.0.0",
+          "category": "GridGuard",
+          "url": "https://github.com/Gridguard/GridGuard-Arduino/blob/main/based_on_adafruit_nrf52/GridGuard_nrf52-1.0.0.zip",
+          "archiveFileName": "GridGuard_nrf52-1.0.0.zip",
+          "checksum": "SHA-256:8EDBB9B4FE4A9E6B6F750C2729D11F6F11356AB63835A2923E063255AF9E5B95",
+          "size": "23285853",
+          
+          "boards": [
+            {
+              "name": "gridguard_nrf52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}
