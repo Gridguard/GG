@@ -13,9 +13,9 @@
           "architecture": "nrf52",
           "version": "1.0.0",
           "category": "GridGuard",
-          "url": "https://github.com/Gridguard/GridGuard-Arduino/blob/main/based_on_adafruit_nrf52/GridGuard_nrf52-1.0.0.zip",
-          "archiveFileName": "GridGuard_nrf52-1.0.0.zip",
-          "checksum": "SHA:3B01D68CD1C0BD3D9D6E1DCF2417A2A3CB0E0B3B",
+          "url": "https://github.com/Gridguard/GridGuard-Arduino/blob/main/based_on_adafruit_nrf52/gridguard_nrf52-1.0.0.zip",
+          "archiveFileName": "gridguard_nrf52-1.0.0.zip",
+          "checksum": "SHA-256:493B8101E69ABD6362F28024FB97D4B55795F3EEBA9FB79B20BD4B080C0B322F",
           "size": "23285853",
           
           "boards": [
