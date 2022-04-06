@@ -1,0 +1,31 @@
+{
+  "packages":
+  [
+    {
+      "name": "GridGuard_nrf52",
+      "maintainer": "Varda AS",
+      "websiteURL": "https://gridguard.no",
+      "email" : "crishan@varda.as",
+      "platforms":
+      [
+        {
+          "name": "GridGuard nRF52",
+          "architecture": "nrf52",
+          "version": "1.0.1",
+          "category": "GridGuard",
+          "url": "https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_adafruit_nrf52/gridguard_nrf52-1.0.1.zip",
+          "archiveFileName": "gridguard_nrf52-1.0.1.zip",
+          "checksum": "SHA-256:778BAD705E376BC7F613BC2B0F06529A8158F696ACD2E8904E06D189D8C78985",
+          "size": "23286123",
+          
+          "boards": [
+            {
+              "name": "gridguard_nrf52840"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}

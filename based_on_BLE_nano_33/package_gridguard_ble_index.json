@@ -1,0 +1,31 @@
+{
+  "packages":
+  [
+    {
+      "name": "GridGuard_BLE",
+      "maintainer": "Varda AS",
+      "websiteURL": "https://gridguard.no",
+      "email" : "crishan@varda.as",
+      "platforms":
+      [
+        {
+          "name": "GridGuard BLE",
+          "architecture": "mbed",
+          "version": "1.0.1",
+          "category": "GridGuard",
+          "url": "https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_adafruit_nrf52/gridguard_nrf52-1.0.1.zip",
+          "archiveFileName": "gridguard_nrf52-1.0.1.zip",
+          "checksum": "SHA-256:EA69CBBBF2F66514B57AC4F1C9BB3494E9242DB01DE111C7318DBE5657B0CD65",
+          "size": "9969476",
+          
+          "boards": [
+            {
+              "name": "gridguard_ble"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}
