@@ -13,8 +13,8 @@
           "architecture": "mbed",
           "version": "1.0.1",
           "category": "GridGuard",
-          "url": "https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_adafruit_nrf52/gridguard_nrf52-1.0.1.zip",
-          "archiveFileName": "gridguard_nrf52-1.0.1.zip",
+          "url": "https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_BLE_nano_33/gridguard_ble_1.0.1.zip",
+          "archiveFileName": "gridguard_ble_1.0.1.zip",
           "checksum": "SHA-256:C7EFE0F660B82CDCA111606EEB77D9219E60DD119263E859BBCA576F9B38F20F",
           "size": "9969476",
           
