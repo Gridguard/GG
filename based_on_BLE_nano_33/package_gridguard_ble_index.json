@@ -11,12 +11,12 @@
         {
           "name": "GridGuard BLE",
           "architecture": "mbed",
-          "version": "1.0.1",
+          "version": "1.0.2",
           "category": "GridGuard",
-          "url": "https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_BLE_nano_33/gridguard_ble_1.0.1.zip",
-          "archiveFileName": "gridguard_ble_1.0.1.zip",
-          "checksum": "SHA-256:C7EFE0F660B82CDCA111606EEB77D9219E60DD119263E859BBCA576F9B38F20F",
-          "size": "9969476",
+          "url": "https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_BLE_nano_33/gridguard_ble_1.0.2.zip",
+          "archiveFileName": "gridguard_ble_1.0.2.zip",
+          "checksum": "SHA-256:78C3DB5E7ECB1368C5E7D055227A6791B1FB59F2FF59FBC001E6B828C2152D8C",
+          "size": "9792847",
           
           "boards": [
             {
