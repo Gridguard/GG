@@ -15,8 +15,8 @@
           "category": "GridGuard",
           "url": "https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_BLE_nano_33/gridguard_ble_1.0.2.zip",
           "archiveFileName": "gridguard_ble_1.0.2.zip",
-          "checksum": "SHA-256:78C3DB5E7ECB1368C5E7D055227A6791B1FB59F2FF59FBC001E6B828C2152D8C",
-          "size": "9792847",
+          "checksum": "SHA-256:E26B73586F61494347BC980D8B1D99D6324E6A38C39687925F903A4EB9CCA54A",
+          "size": "9793102",
           
           "boards": [
             {
