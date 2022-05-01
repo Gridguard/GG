@@ -17,3 +17,6 @@ for arduino ble based library:
 
   Add this link into your Arduino Preferences Additional Board Manager URLs:
   https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_BLE_nano_33/package_gridguard_ble_index.json
+
+
+![MS88SF2_Connection](https://user-images.githubusercontent.com/5615745/166158934-ee59da17-a70f-4897-83b6-04f91b2ad024.JPG)
