@@ -1,6 +1,8 @@
 # GridGuard-Arduino
 Repository for Arduino Related Board Files
 
+![MS88SF2_Connection](https://user-images.githubusercontent.com/5615745/166158934-ee59da17-a70f-4897-83b6-04f91b2ad024.JPG)
+
 Hardware:
 Connect the Minew According to the Schematics, If youse of Minew DEV Board, make sure P0.18 Switch is OFF.
 Connect "SWDCLK", "SWDIO" and "GND" to the J-Link GND to the Minew Board
@@ -11,18 +13,24 @@ Burn Bootloader:
  
  
   1. burn bootloader via "j-link" "j-flash lite" with this bootloader:
+     https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/GG_BLUE_BOOTLOADER_V1.0.2/GG_BLUE_BOOTLOADER_V1.0.2.hex
   
-  or use the * .hex or * .bin file in this * .zip file:
+     or use the * .hex or * .bin file in this * .zip file:
+     https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/GG_BLE_BOOTLOADER_V1.0.2.zip
   
 
   2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
-  https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_adafruit_nrf52/package_gridguard_nrf52_index.json
+     https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/package_GG_BLUE_index.json
 
-  3. In Arduino. Go to "Tools" -> "Board" -> 
+  3. In Arduino. Go to "Tools" -> "Board" -> "GG_BLUE" -> Select "GG_BLUE"
+    
 
 
 
 
+
+
+/* UNDER CONSTRUCTION */
 B: GG_BLE (for ArduinoBLE based nano 33 libraries )
 
 1. for arduino ble based library:
@@ -34,11 +42,16 @@ B: GG_BLE (for ArduinoBLE based nano 33 libraries )
   https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_BLE_nano_33/package_gridguard_ble_index.json
 
 
-![MS88SF2_Connection](https://user-images.githubusercontent.com/5615745/166158934-ee59da17-a70f-4897-83b6-04f91b2ad024.JPG)
+
 
 
 
 Connect
+
+#if defined(USE_TINYUSB)
+#include <Adafruit_TinyUSB.h> // for Serial
+#endif
+
 
 
 How to release a new version:
