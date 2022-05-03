@@ -15,8 +15,8 @@
           "category": "GridGuard",
           "url": "https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/GG_BLUE_V1.0.2.zip",
           "archiveFileName": "GG_BLUE_V1.0.2.zip",
-          "checksum": "SHA-256:D22CEB4531B97E2A2ECB82760EEDCB74D0D2473EB4DA15D7FF947BE9BED7F5E4",
-          "size": "23268368 ",
+          "checksum": "SHA-256:EA8AAD6ED43920CEBE97232BAFCE9D965CF5AC1618D2FC8934A27AB5B804C5C1",
+          "size": "23264422  ",
           
           "boards": [
             {
