@@ -22,7 +22,10 @@ Burn Bootloader:
   2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
      https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/package_GG_BLUE_index.json
 
-  3. In Arduino. Go to "Tools" -> "Board" -> "GG_BLUE" -> Select "GG_BLUE"
+  3. Go to "Tools" -> "Board:" -> "Board Manager..."
+  4. Type "GG" in text field -> Install GG_BLUE -> hit "Close"
+  5. Go to "Tools" -> "Board:" -> "GG_BLUE" -> select "GG_BLUE"
+  6. Upload Testcode
     
 
 
