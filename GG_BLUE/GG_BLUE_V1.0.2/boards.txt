@@ -6,57 +6,57 @@ menu.debug_output=Debug Output
 # -----------------------------------
 # GridGuard nRF52840
 # -----------------------------------
-gridguard_nrf52840.name=GridGuard nRF52840
+GG_BLUE.name=GG_BLUE
 
 # VID/PID for Bootloader, Arduino & CircuitPython
-gridguard_nrf52840.vid.0=0x239A
-gridguard_nrf52840.pid.0=0x8029
-gridguard_nrf52840.vid.1=0x239A
-gridguard_nrf52840.pid.1=0x0029
+GG_BLUE.vid.0=0x239A
+GG_BLUE.pid.0=0x8029
+GG_BLUE.vid.1=0x239A
+GG_BLUE.pid.1=0x0029
 
 # Upload
-gridguard_nrf52840.bootloader.tool=bootburn
-gridguard_nrf52840.upload.tool=nrfutil
-gridguard_nrf52840.upload.protocol=nrfutil
-gridguard_nrf52840.upload.use_1200bps_touch=true
-gridguard_nrf52840.upload.wait_for_upload_port=true
-gridguard_nrf52840.upload.maximum_size=815104
-gridguard_nrf52840.upload.maximum_data_size=237568
+GG_BLUE.bootloader.tool=bootburn
+GG_BLUE.upload.tool=nrfutil
+GG_BLUE.upload.protocol=nrfutil
+GG_BLUE.upload.use_1200bps_touch=true
+GG_BLUE.upload.wait_for_upload_port=true
+GG_BLUE.upload.maximum_size=815104
+GG_BLUE.upload.maximum_data_size=237568
 
 # Build
-gridguard_nrf52840.build.mcu=cortex-m4
-gridguard_nrf52840.build.f_cpu=64000000
-gridguard_nrf52840.build.board=NRF52840_gridguard_nrf52840
-gridguard_nrf52840.build.core=nRF5
-gridguard_nrf52840.build.variant=gridguard_nrf52840
-gridguard_nrf52840.build.usb_manufacturer="Varda"
-gridguard_nrf52840.build.usb_product="gridguard_nrf52840"
-gridguard_nrf52840.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
-gridguard_nrf52840.build.ldscript=nrf52840_s140_v6.ld
-gridguard_nrf52840.build.vid=0x239A
-gridguard_nrf52840.build.pid=0x8029
+GG_BLUE.build.mcu=cortex-m4
+GG_BLUE.build.f_cpu=64000000
+GG_BLUE.build.board=NRF52840_GG_BLUE
+GG_BLUE.build.core=nRF5
+GG_BLUE.build.variant=GG_BLUE
+GG_BLUE.build.usb_manufacturer="Varda"
+GG_BLUE.build.usb_product="GG_BLUE"
+GG_BLUE.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
+GG_BLUE.build.ldscript=nrf52840_s140_v6.ld
+GG_BLUE.build.vid=0x239A
+GG_BLUE.build.pid=0x8029
 
 # SoftDevice Menu
-gridguard_nrf52840.menu.softdevice.s140v6=S140 6.1.1
-gridguard_nrf52840.menu.softdevice.s140v6.build.sd_name=s140
-gridguard_nrf52840.menu.softdevice.s140v6.build.sd_version=6.1.1
-gridguard_nrf52840.menu.softdevice.s140v6.build.sd_fwid=0x00B6
+GG_BLUE.menu.softdevice.s140v6=S140 6.1.1
+GG_BLUE.menu.softdevice.s140v6.build.sd_name=s140
+GG_BLUE.menu.softdevice.s140v6.build.sd_version=6.1.1
+GG_BLUE.menu.softdevice.s140v6.build.sd_fwid=0x00B6
 
 # Debug Menu
-gridguard_nrf52840.menu.debug.l0=Level 0 (Release)
-gridguard_nrf52840.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
-gridguard_nrf52840.menu.debug.l1=Level 1 (Error Message)
-gridguard_nrf52840.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
-gridguard_nrf52840.menu.debug.l2=Level 2 (Full Debug)
-gridguard_nrf52840.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
-gridguard_nrf52840.menu.debug.l3=Level 3 (Segger SystemView)
-gridguard_nrf52840.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
-gridguard_nrf52840.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
+GG_BLUE.menu.debug.l0=Level 0 (Release)
+GG_BLUE.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
+GG_BLUE.menu.debug.l1=Level 1 (Error Message)
+GG_BLUE.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
+GG_BLUE.menu.debug.l2=Level 2 (Full Debug)
+GG_BLUE.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
+GG_BLUE.menu.debug.l3=Level 3 (Segger SystemView)
+GG_BLUE.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
+GG_BLUE.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
 
 # Debug Output Menu
-gridguard_nrf52840.menu.debug_output.serial=Serial
-gridguard_nrf52840.menu.debug_output.serial.build.logger_flags=-DCFG_LOGGER=0
-gridguard_nrf52840.menu.debug_output.serial1=Serial1
-gridguard_nrf52840.menu.debug_output.serial1.build.logger_flags=-DCFG_LOGGER=1 -DCFG_TUSB_DEBUG=CFG_DEBUG
-gridguard_nrf52840.menu.debug_output.rtt=Segger RTT
-gridguard_nrf52840.menu.debug_output.rtt.build.logger_flags=-DCFG_LOGGER=2 -DCFG_TUSB_DEBUG=CFG_DEBUG -DSEGGER_RTT_MODE_DEFAULT=SEGGER_RTT_MODE_BLOCK_IF_FIFO_FULL
+GG_BLUE.menu.debug_output.serial=Serial
+GG_BLUE.menu.debug_output.serial.build.logger_flags=-DCFG_LOGGER=0
+GG_BLUE.menu.debug_output.serial1=Serial1
+GG_BLUE.menu.debug_output.serial1.build.logger_flags=-DCFG_LOGGER=1 -DCFG_TUSB_DEBUG=CFG_DEBUG
+GG_BLUE.menu.debug_output.rtt=Segger RTT
+GG_BLUE.menu.debug_output.rtt.build.logger_flags=-DCFG_LOGGER=2 -DCFG_TUSB_DEBUG=CFG_DEBUG -DSEGGER_RTT_MODE_DEFAULT=SEGGER_RTT_MODE_BLOCK_IF_FIFO_FULL

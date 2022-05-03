@@ -1,0 +1,31 @@
+{
+  "packages":
+  [
+    {
+      "name": "GG_BLUE",
+      "maintainer": "Varda AS",
+      "websiteURL": "https://gridguard.no",
+      "email" : "crishan@varda.as",
+      "platforms":
+      [
+        {
+          "name": "GG_BLUE",
+          "architecture": "nrf52",
+          "version": "1.0.2",
+          "category": "GridGuard",
+          "url": "https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/GG_BLUE_V1.0.2.zip",
+          "archiveFileName": "GG_BLUE_V1.0.2.zip",
+          "checksum": "SHA-256:EA8AAD6ED43920CEBE97232BAFCE9D965CF5AC1618D2FC8934A27AB5B804C5C1",
+          "size": "23264422  ",
+          
+          "boards": [
+            {
+              "name": "GG_BLUE"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}
