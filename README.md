@@ -13,14 +13,14 @@ Burn Bootloader:
  
  
   1. burn bootloader via "j-link" "j-flash lite" with this bootloader:
-     https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/GG_BLUE_BOOTLOADER_V1.0.2/GG_BLUE_BOOTLOADER_V1.0.2.hex
+     https://github.com/electroc/GG/raw/main/GG_BLUE/GG_BLUE_BOOTLOADER_V1.0.2/GG_BLUE_BOOTLOADER_V1.0.2.hex
   
      or use the * .hex or * .bin file in this * .zip file:
-     https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/GG_BLE_BOOTLOADER_V1.0.2.zip
+     https://github.com/electroc/GG/raw/main/GG_BLUE/GG_BLE_BOOTLOADER_V1.0.2.zip
   
 
   2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
-     https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLUE/package_GG_BLUE_index.json
+     https://github.com/electroc/GG/main/GG_BLUE/package_GG_BLUE_index.json
 
   3. Go to "Tools" -> "Board:" -> "Board Manager..."
   4. Type "GG" in text field -> Install GG_BLUE -> hit "Close"
@@ -38,11 +38,10 @@ B: GG_BLE (for ArduinoBLE based nano 33 libraries )
 
 1. for arduino ble based library:
     burn bootloader via j-link with this bootloader:
-    https://github.com/Gridguard/GridGuard-Arduino/blob/main/based_on_BLE_nano_33/bootloader.hex
+
 
 2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
-3. https://github.com/Gridguard/GridGuard-Arduino/raw/main/GG_BLE/package_gridguard_ble_index.json
-  https://raw.githubusercontent.com/Gridguard/GridGuard-Arduino/main/based_on_BLE_nano_33/package_gridguard_ble_index.json
+
 
 
 
