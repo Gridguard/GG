@@ -16,7 +16,7 @@ Burn Bootloader:
      https://github.com/electroc/GG/raw/main/GG_BLUE/GG_BLUE_BOOTLOADER_V1.0.2/GG_BLUE_BOOTLOADER_V1.0.2.hex
   
      or use the * .hex or * .bin file in this * .zip file:
-     https://github.com/electroc/GG/raw/main/GG_BLUE/GG_BLE_BOOTLOADER_V1.0.2.zip
+     https://github.com/electroc/GG/raw/main/GG_BLUE/GG_BLUE_BOOTLOADER_V1.0.2.zip
   
 
   2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
