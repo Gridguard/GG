@@ -20,7 +20,7 @@ Burn Bootloader:
   
 
   2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
-     https://github.com/electroc/GG/main/GG_BLUE/package_GG_BLUE_index.json
+     https://github.com/electroc/GG/raw/main/GG_BLUE/package_GG_BLUE_index.json
 
   3. Go to "Tools" -> "Board:" -> "Board Manager..."
   4. Type "GG" in text field -> Install GG_BLUE -> hit "Close"
@@ -39,7 +39,7 @@ B: GG_BLE (for ArduinoBLE based nano 33 libraries )
   
 
   2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
-     https://github.com/electroc/GG/main/GG_BLE/package_GG_BLE_index.json
+     https://github.com/electroc/GG/raw/main/GG_BLE/package_GG_BLE_index.json
 
   3. Go to "Tools" -> "Board:" -> "Board Manager..."
   4. Type "GG" in text field -> Install GG_BLE -> hit "Close"
