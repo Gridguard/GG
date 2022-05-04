@@ -24,7 +24,22 @@
             }
           ]
         }
-        
+        {
+          "name": "GG_BLUE",
+          "architecture": "nrf52",
+          "version": "1.0.3",
+          "category": "GG",
+          "url": "https://github.com/electroc/GG/raw/main/GG_BLUE/GG_BLUE_V1.0.3.zip",
+          "archiveFileName": "GG_BLUE_V1.0.3.zip",
+          "checksum": "SHA-256:55E219F108FF092B52F1010886D3E06D0E074B0BC6FA5624C0D2510F7847C77A",
+          "size": "23293465",
+          
+          "boards": [
+            {
+              "name": "GG_BLUE"
+            }
+          ]
+        }
       ]
     }
   ]
