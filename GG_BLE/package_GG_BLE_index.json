@@ -1,0 +1,31 @@
+{
+  "packages":
+  [
+    {
+      "name": "GG_BLE",
+      "maintainer": "electroc",
+      "websiteURL": "electroc.de",
+      "email" : "c@electroc.de",
+      "platforms":
+      [
+        {
+          "name": "GG_BLE",
+          "architecture": "mbed",
+          "version": "1.0.2",
+          "category": "GG",
+          "url": "https://github.com/electroc/GG/raw/main/GG_BLE/GG_BLE_V1.0.2.zip",
+          "archiveFileName": "GG_BLE_1.0.2.zip",
+          "checksum": "SHA-256:A5618620B810A16231585E908D018C6857776956E10227F1ABFDAEF0C9F95704",
+          "size": "9657771",
+          
+          "boards": [
+            {
+              "name": "GG_BLE"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ]
+}
