@@ -29,21 +29,22 @@ Burn Bootloader:
     
 
 
-
-
-
-
-/* UNDER CONSTRUCTION */
 B: GG_BLE (for ArduinoBLE based nano 33 libraries )
 
-1. for arduino ble based library:
-    burn bootloader via j-link with this bootloader:
+  1. burn bootloader via "j-link" "j-flash lite" with this bootloader:
+     https://github.com/electroc/GG/raw/main/GG_BLE/GG_BLE_BOOTLOADER_V1.0.2/GG_BLE_BOOTLOADER_V1.0.2.hex
+  
+     or use the * .hex or * .bin file in this * .zip file:
+     https://github.com/electroc/GG/raw/main/GG_BLE/GG_BLE_BOOTLOADER_V1.0.2.zip
+  
 
+  2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
+     https://github.com/electroc/GG/main/GG_BLE/package_GG_BLE_index.json
 
-2. Add this link into your Arduino -> "Preferences" -> "Additional Board Manager URLs:"
-
-
-
+  3. Go to "Tools" -> "Board:" -> "Board Manager..."
+  4. Type "GG" in text field -> Install GG_BLE -> hit "Close"
+  5. Go to "Tools" -> "Board:" -> "GG_BLE" -> select "GG_BLE"
+  6. Upload Testcode
 
 
 
@@ -53,7 +54,6 @@ Connect
 #if defined(USE_TINYUSB)
 #include <Adafruit_TinyUSB.h> // for Serial
 #endif
-
 
 
 How to release a new version:
