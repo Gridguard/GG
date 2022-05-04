@@ -15,8 +15,8 @@
           "category": "GG",
           "url": "https://github.com/electroc/GG/raw/main/GG_BLE/GG_BLE_V1.0.2.zip",
           "archiveFileName": "GG_BLE_1.0.2.zip",
-          "checksum": "SHA-256:A5618620B810A16231585E908D018C6857776956E10227F1ABFDAEF0C9F95704",
-          "size": "9657771",
+          "checksum": "SHA-256:243B3EE1DFFB979D224F4E43AC3420E3BBD6C81C6B3652F499125E05F1759432",
+          "size": "9664624",
           
           "boards": [
             {
