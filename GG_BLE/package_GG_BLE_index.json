@@ -23,7 +23,7 @@
               "name": "GG_BLE"
             }
           ]
-        }
+        },
         {
           "name": "GG_BLE",
           "architecture": "mbed",
