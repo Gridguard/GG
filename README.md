@@ -58,7 +58,8 @@ Connect
 
 How to release a new version:
 edit * index.json file
-new link url
+   - package_GG_BLE_index.json
+new link url to *.zip file
 make sha-256 checksum
 check size in explorer
-edit pl,atform.txt version
+edit platform.txt version
