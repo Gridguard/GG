@@ -51,15 +51,8 @@ B: GG_BLE (for ArduinoBLE based nano 33 libraries )
 
 Connect
 
+//for BLUE library:
 #if defined(USE_TINYUSB)
 #include <Adafruit_TinyUSB.h> // for Serial
 #endif
 
-
-How to release a new version:
-edit * index.json file
-   - package_GG_BLE_index.json
-new link url to *.zip file
-make sha-256 checksum
-check size in explorer
-edit platform.txt version
