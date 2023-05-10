@@ -58,12 +58,12 @@
 		{
           "name": "GG_BLE",
           "architecture": "mbed",
-          "version": "4.0.2",
+          "version": "4.0.3",
           "category": "GG",
-          "url": "https://github.com/electroc/GG/raw/main/GG_BLE/GG_BLE_V4.0.2.zip",
-          "archiveFileName": "GG_BLE_4.0.2.zip",
-          "checksum": "SHA-256:193345D8DEA6955F43D4C32DB401F4473C7C6A074310166CD127BFFFF5DA6BAA",
-          "size": "11503669",
+          "url": "https://github.com/electroc/GG/raw/main/GG_BLE/GG_BLE_V4.0.3.zip",
+          "archiveFileName": "GG_BLE_4.0.3.zip",
+          "checksum": "SHA-256:2267520ABAC25BB33759945C286934A85FD1F20E",
+          "size": "13451709",
           "boards": [
             {
               "name": "GG_BLE"
